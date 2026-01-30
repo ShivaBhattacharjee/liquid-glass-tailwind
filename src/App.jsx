@@ -87,7 +87,6 @@ const images = [
   'https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=400&h=300&fit=crop',
   'https://images.unsplash.com/photo-1519681393784-d120267933ba?w=400&h=300&fit=crop',
   'https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=400&h=300&fit=crop',
-  'https://images.unsplash.com/photo-1504198453319-5ce911bafcde?w=400&h=300&fit=crop',
   'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=400&h=300&fit=crop',
   'https://images.unsplash.com/photo-1490682143684-14369e18dce8?w=400&h=300&fit=crop',
   'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=400&h=300&fit=crop',
@@ -236,21 +235,14 @@ const App = () => {
 
       {/* Header - Apple Inspired */}
       <header className="max-w-5xl mx-auto px-4 pt-20 pb-12">
-        {/* Liquid Glass Badge */}
-        <div className="inline-flex items-center gap-2 mb-6 px-4 py-2 rounded-full bg-gradient-to-r from-gray-100 to-gray-50 border border-gray-200/60 shadow-sm">
-          <svg className="w-4 h-4 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456z" />
-          </svg>
-          <span className="text-sm font-medium text-gray-600">Introducing</span>
-        </div>
 
         {/* Main Title with Gradient */}
         <h1 className="text-6xl md:text-8xl font-bold leading-[0.9] tracking-tight mb-6">
-          <span className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-600 bg-clip-text text-transparent">
+          <span>
             Liquid
           </span>
           <br />
-          <span className="bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+          <span >
             Glass
           </span>
         </h1>
@@ -266,21 +258,7 @@ const App = () => {
           macOS design language. Drag the glass element to experience the magic.
         </p>
 
-        {/* Feature Pills */}
-        <div className="flex flex-wrap gap-3 mt-8">
-          <span className="px-4 py-1.5 rounded-full bg-gray-900 text-white text-sm font-medium shadow-lg">
-            SVG Filters
-          </span>
-          <span className="px-4 py-1.5 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 text-white text-sm font-medium shadow-lg">
-            Chromatic Aberration
-          </span>
-          <span className="px-4 py-1.5 rounded-full border border-gray-300 text-gray-700 text-sm font-medium backdrop-blur-sm">
-            GSAP Powered
-          </span>
-          <span className="px-4 py-1.5 rounded-full border border-gray-300 text-gray-700 text-sm font-medium backdrop-blur-sm">
-            Tailwind CSS
-          </span>
-        </div>
+ 
       </header>
 
       {/* Effect Container - Liquid Glass */}
