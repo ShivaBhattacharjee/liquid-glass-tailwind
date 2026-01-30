@@ -202,7 +202,7 @@ const App = () => {
       <div className="fixed top-4 right-4 z-50 flex items-center gap-3">
         {/* GitHub Link */}
         <a 
-          href="https://github.com/shivabhattacharjee" 
+          href="https://github.com/ShivaBhattacharjee/liquid-glass-tailwind/" 
           target="_blank" 
           rel="noopener noreferrer"
           className="group p-2.5 bg-white/80 backdrop-blur-md rounded-xl shadow-lg border border-gray-200/50 hover:bg-gray-900 hover:border-gray-900 transition-all duration-300"
